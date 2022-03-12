@@ -1,0 +1,11 @@
+{
+  "name": "@reach-sh/1-setup",
+  "type": "module",
+  "dependencies": {},
+  "author": "Dennoh Peter",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ext .mjs .",
+    "index": "node --experimental-modules --unhandled-rejections=strict index.mjs"
+  }
+}
